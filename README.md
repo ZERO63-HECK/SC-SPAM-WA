@@ -1,89 +1,109 @@
-============================================================
- TUTORIAL MENJALANKAN SC-SPAM-WA
-============================================================
+# SC-SPAM-WA
 
-============================================================
- 1. CARA JALANKAN DI WINDOWS
-============================================================
+**SC-SPAM-WA** adalah script PHP sederhana yang memungkinkan pengiriman spam pesan ke nomor WhatsApp secara otomatis. Script ini dibuat untuk **tujuan edukasi**, eksperimen, dan pembelajaran mengenai pengiriman request HTTP.
 
-✅ Persiapan:
-- Install PHP (download di: https://windows.php.net/download/)
-- Bisa juga install XAMPP (jika belum punya PHP)
+> ⚠️ **Peringatan:** Gunakan hanya untuk tujuan edukasi dan uji coba pada nomor WhatsApp yang Anda miliki. Penggunaan untuk spam atau aktivitas ilegal lainnya sangat dilarang.
 
-✅ Langkah:
-1. Ekstrak PHP ke folder, misalnya: C:\php
-2. Tambahkan folder C:\php ke PATH environment variable
-3. Buka CMD (Command Prompt), lalu ketik:
+---
 
-   php -v
+## 🚀 Fitur Utama
 
-   (Jika muncul versi PHP berarti berhasil)
+- Kirim spam pesan WhatsApp secara otomatis
+- Penggunaan yang mudah melalui terminal (CLI)
+- Tidak memerlukan database atau dependensi lainnya
+- Bisa dijalankan di berbagai platform (Windows, Linux, Termux)
 
-4. Clone script:
+---
 
-   git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
-   cd SC-SPAM-WA
+## 📥 Instalasi dan Penggunaan
 
-5. Jalankan script:
+### 🪟 **Menjalankan di Windows**
 
-   php spam.php
+1. **Install PHP**
+   - Download dan install PHP dari [PHP Windows Downloads](https://windows.php.net/download/).
+   - Ekstrak PHP ke dalam folder (misalnya `C:\php`).
+   - Tambahkan folder `C:\php` ke dalam **PATH** environment variables pada sistem Windows Anda.
 
-============================================================
- 2. CARA JALANKAN DI LINUX (Ubuntu/Debian/Termux Linux)
-============================================================
+2. **Verifikasi Instalasi PHP**
+   - Buka **CMD** atau **PowerShell**, lalu ketik perintah:
+     ```bash
+     php -v
+     ```
+   - Jika PHP terinstal dengan benar, versi PHP akan ditampilkan.
 
-✅ Langkah:
-1. Buka terminal, jalankan perintah berikut:
+3. **Clone Repositori**
+   - Buka CMD atau PowerShell dan jalankan perintah:
+     ```bash
+     git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
+     cd SC-SPAM-WA
+     ```
 
-   sudo apt update
-   sudo apt install php git -y
+4. **Jalankan Script**
+   - Setelah berada di dalam folder `SC-SPAM-WA`, jalankan script dengan perintah:
+     ```bash
+     php spam.php
+     ```
 
-2. Clone script:
+   - Ikuti instruksi untuk memasukkan nomor WhatsApp dan jumlah pesan yang ingin dikirim.
 
-   git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
-   cd SC-SPAM-WA
+---
 
-3. Jalankan:
+### 📱 **Menjalankan di Termux (Android)**
 
-   php spam.php
+1. **Install PHP dan Git di Termux**
+   - Buka aplikasi **Termux** di Android, lalu jalankan perintah berikut untuk menginstal PHP dan Git:
+     ```bash
+     pkg update && pkg upgrade
+     pkg install php git -y
+     ```
 
-============================================================
- 3. CARA JALANKAN DI TERMUX ANDROID
-============================================================
+2. **Clone Repositori**
+   - Setelah PHP dan Git terinstal, clone repositori dengan perintah:
+     ```bash
+     git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
+     cd SC-SPAM-WA
+     ```
 
-✅ Langkah:
-1. Buka Termux, lalu ketik:
+3. **Jalankan Script**
+   - Setelah berada di dalam folder `SC-SPAM-WA`, jalankan perintah:
+     ```bash
+     php spam.php
+     ```
 
-   pkg update && pkg upgrade
-   pkg install php git -y
+   - Script akan meminta input nomor WhatsApp dan jumlah pesan yang ingin dikirimkan.
 
-2. Clone repo:
+---
 
-   git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
-   cd SC-SPAM-WA
+## ⚙️ **Struktur File**
 
-3. Jalankan:
+| File          | Keterangan                                           |
+|---------------|------------------------------------------------------|
+| `spam.php`    | Script utama untuk mengirim spam pesan WhatsApp      |
+| `pam.php`     | File pendukung yang diperlukan untuk beberapa fungsi|
+| `version.txt` | Menyimpan informasi versi dari script               |
 
-   php spam.php
+---
 
-============================================================
- CATATAN TAMBAHAN:
-============================================================
-- Jika muncul error "permission denied", jalankan:
+## 🛠 **Pengaturan dan Penggunaan**
 
-   chmod +x spam.php
+1. **Jalankan Script**
+   - Untuk menjalankan script, cukup ketik:
+     ```bash
+     php spam.php
+     ```
 
-- Pastikan semua file sudah lengkap (spam.php, pam.php, dll)
-- Gunakan nomor WA milik sendiri untuk uji coba!
+2. **Input**
+   - Script akan meminta input berupa:
+     - **Nomor WhatsApp** yang ingin Anda spam (gunakan format `62xxxxxxxxxx`).
+     - **Jumlah pesan** yang ingin Anda kirimkan.
 
-============================================================
- DUKUNG PENGEMBANG
-============================================================
-Jika kamu merasa script ini bermanfaat, kamu bisa dukung proyek ini
-dengan berdonasi melalui link berikut:
+---
 
-🔗 https://sociabuzz.com/proaccount/profile/675004
+## ⚠️ **Penting!**
 
-Terima kasih sudah menggunakan SC-SPAM-WA!
-
-============================================================
+- **Gunakan hanya untuk uji coba pada nomor milik sendiri.**
+- **Tidak boleh digunakan untuk spam atau kegiatan ilegal lainnya.**
+- **Jangan mengirimkan pesan tanpa izin kepada orang lain.**
+- Jika mengalami error "Permission Denied" saat menjalankan script, coba berikan hak akses pada file:
+  ```bash
+  chmod +x spam.php
