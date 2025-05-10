@@ -1,6 +1,11 @@
 # SC-SPAM-WA
 
-Script spam WhatsApp via API untuk keperluan edukasi dan testing.
+Script spam WhatsApp via API untuk keperluan edukasi dan pengujian sistem.
+
+## Fitur
+- Spam WhatsApp via API
+- Tampilan terminal sederhana
+- Bisa dijalankan di Termux / Linux / Windows (dengan Python)
 
 ## Cara Install
 
