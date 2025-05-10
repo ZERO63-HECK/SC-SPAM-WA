@@ -5,10 +5,12 @@
 
 🔗 Kontak & Sosial Media 
 
-- 📞 **support me:** [sociabuzz.com]([https://wa.me/6285136525093](https://sociabuzz.com/proaccount/profile/675004))  
+- 📞 **WhatsApp:** [0851-3652-5093](https://wa.me/6285136525093)  
 - 🐱 **GitHub:** [github.com/ZERO63-HECK](https://github.com/ZERO63-HECK)  
 - ✈️ **Telegram:** [t.me/zero63_heck](@zero63_heck)  
 - 🌐 **Website:** [https://zero63-heck.my.id](https://zero63-heck.my.id)
+
+---
 
 ---
 
