@@ -24,7 +24,7 @@ Script spam WhatsApp via API untuk keperluan edukasi dan pengujian sistem.
 ## Cara Install
 ```bash
 pkg update && pkg upgrade
-pkg install git python
+pkg install php
 git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
 cd SC-SPAM-WA
 php pam.php
