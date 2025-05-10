@@ -15,3 +15,14 @@ pkg install git python
 git clone https://github.com/ZERO63-HECK/SC-SPAM-WA.git
 cd SC-SPAM-WA
 php pam.php
+
+
+
+## 🔗 Kontak & Sosial Media
+
+- 📞 **WhatsApp:** [0851-3652-5093](https://wa.me/6285136525093)  
+- 🐱 **GitHub:** [github.com/ZERO63-HECK](https://github.com/ZERO63-HECK)  
+- ✈️ **Telegram:** [t.me/zero63_heck](@zero63_heck)  
+- 🌐 **Website:** [https://zero63-heck.my.id](https://zero63-heck.my.id)
+
+---
